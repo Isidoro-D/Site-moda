@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .menu-info {
@@ -71,7 +72,7 @@
     display: flex;
 }
 
-p {
+.bmv {
     margin-right: 30px;
     color: #fff;
     font-size: 1.20em;
@@ -81,4 +82,96 @@ p {
     color: #fff;
     font-size: 1.75em;
     padding: 0 25px;
+}
+
+.cep {
+    display: flex;
+    margin: 15px 20px;
+}
+
+.fa-location-dot {
+    padding-right: 10px;
+    font-size: 1.20em;
+}
+
+.cep-btn input {
+    width: 160px;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.clothes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 150px;
+}
+
+.clothes a {
+    font-size: 1.75em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.outlet {
+    color: rgb(223, 16, 16);
+}
+
+.info {
+    padding: 20px;
+}
+
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+    margin: 50px 40px;
+}
+
+.info ul li {
+    background-color: rgb(223, 16, 16);
+    list-style: none;
+    padding: 40px 60px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.info ul li h4 {
+    font-size: 1.65em;
+    font-weight: lighter;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.right {
+    
+}
+
+.info ul li p {
+    position: relative;
+    font-size: 12px;
+    top: 70px;
+    text-align: center;
+}
+
+.fa-truck-fast {
+    font-size: 4em;
+    position: relative;
+}
+
+.fa-clock-rotate-left {
+    font-size: 4em;
+}
+
+.fa-credit-card {
+    font-size: 4em;
+    align-items: center;
+}
+
+.fa-mobile-screen-button {
+    font-size: 4em;
+
 }
