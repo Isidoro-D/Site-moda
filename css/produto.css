@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(223, 16, 16);
+}
+
+.menu-info h2 {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    padding: 15px;
+}
+
+.search input {
+    padding: 10px;
+    width: 440px;
+    height: 20px;
+    font-size: 1em;
+    border-color: red;
+}
+
+.fa-magnifying-glass {
+    color: red;
+    margin-left: -40px;
+    font-size: 18px;
+}
+
+.atendimento {
+    display: flex;
+}
+
+.fa-headset {
+    padding-right: 10px;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.atendimento a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+}
+
+.wpp {
+    display: flex;
+}
+
+.fa-whatsapp {
+    padding-right: 10px;
+    color: #fff;
+    font-size: 1.20em;
+}
+
+.wpp a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.20em;
+}
+
+.login {
+    display: flex;
+}
+
+.bmv {
+    margin-right: 30px;
+    color: #fff;
+    font-size: 1.20em;
+}
+
+.login i {
+    color: #fff;
+    font-size: 1.75em;
+    padding: 0 25px;
+}
+
+.cep {
+    display: flex;
+    margin: 15px 20px;
+}
+
+.fa-location-dot {
+    padding-right: 10px;
+    font-size: 1.20em;
+}
+
+.cep-btn input {
+    width: 160px;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.clothes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 150px;
+}
+
+.clothes a {
+    font-size: 1.75em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.outlet {
+    color: rgb(223, 16, 16);
+}
+
+.pgs ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 80px 30px;
+}
+
+.pgs ul li {
+    padding-left: 20px;
+}
+
+.pgs ul li a {
+    color: black;
+}
+
+.produtos {
+    position: relative;
+}
+
+.principal {
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-left: 55px;
+    width: 510px;
+}
+
+.exemple1 {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+.exemple2 {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    background-color: rgba(128, 128, 128, 0.25);
+}
