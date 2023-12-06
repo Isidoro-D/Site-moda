@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./css/produto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Conjuntos</title>
 </head>
 
 <body>
@@ -77,7 +79,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="front">
             <div class="produtos">
                 <img class="principal" src="./img/produto-exposi.png" alt="">
                 <img class="exemple1" src="./img/produto-front.png" alt="">
@@ -87,7 +89,7 @@
             <div class="info">
                 <div class="titulo">
                     <h2>Conjunto jacard losangos Feminino - Vermelho</h2>
-                    <i class="fa-regular fa-heart" style="color: #ed0707;"></i>
+                    <a href="#"><i class="fa-regular fa-heart" style="color: #ed0707;"></i></a>
                 </div>
                 <div class="avaliacao">
                     <i class="fa-solid fa-star" style="color: #ffd500;"></i>
@@ -96,19 +98,96 @@
                     <i class="fa-solid fa-star" style="color: #969696;"></i>
                     <i class="fa-solid fa-star" style="color: #969696;"></i>
                     <a href="">Ver avaliações</a>
-                    <i class="fa-solid fa-share-nodes" style="color: #ed0707;"></i>
+                    <a href="#"><i class="fa-solid fa-share-nodes" style="color: #ed0707;"></i></a>
                 </div>
                 <div class="info-produto">
                     <h3>R$90,90</h3>
                     <p>Selecione a cor: <span>Vermelho</span></p>
                     <img src="./img/produto-front.png" alt="">
                     <p>Escolha o seu tamanho: <i class="fa-solid fa-ruler" style="color: #000000;"></i> </p>
-                    
+                </div>
+                <div class="sizes">
+
+                    <div class="size-circle size-p">P</div>
+                    <div class="size-circle">M</div>
+                    <div class="size-circle">G</div>
+                    <div class="size-circle">GG</div>
+
+                </div>
+                <div class="frete">
+                    <form action="">
+                        <input type="text" placeholder="Calcule o Frete">
+                        <button type="submit">OK</button>
+                    </form>
+                </div>
+                <div class="buy">
+                    <a href="#">Comprar</a>
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="frete-info">
+                    <p>Prazo de entrega:</p>
+                    <p><span>Chega até dia 31 de agosto</span> ao escolher a opção de entrega Expressa para o CEP
+                        17.600-000.</p>
+                    <ul>
+                        <li><a href="#">Alterar CEP</a></li>
+                        <li><a href="#">Ver todas as formas de entrega</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="down">
+                <p>Ou Compre separado:</p>
+                <div class="outros">
+                    <i class="fa-regular fa-heart" style="color: #ed0707;"></i>
+                    <img src="./img/conj_fem_saia_e_blusa-removeb 1.png" alt="">
+                    <p>Blusa jacard<br> losangos Vermelho</p>
+                    <p class="preco">R$ 55,90</p>
+                </div>
+                <div class="outros">
+                    <i class="fa-regular fa-heart" style="color: #ed0707;"></i>
+                    <img class="saia" src="./img/conj_fem_saia_e 1.png" alt="">
+                    <p>Saia jacard<br> losangos Vermelho</p>
+                    <p class="preco">R$ 40,90</p>
                 </div>
             </div>
         </section>
 
     </main>
+
+    <footer class="contact-container">
+        <div class="questions">
+            <ul>
+                <h3>DÚVIDAS FREQUENTE</h3>
+                <li><a href="#">Acompanhe o seu pedido online</a></li>
+                <li><a href="#">Cancelamento</a></li>
+                <li><a href="#">Entrega</a></li>
+                <li><a href="#">Pagamentos</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Promoções e Descontos</a></li>
+                <li><a href="#">Trocas e Devoluções</a></li>
+            </ul>
+        </div>
+        <div class="atendimento">
+            <!--aqui tem wpp e tel-->
+            <ul>
+                <h3>ATENDIMENTO</h3>
+                <li><a href="tel:+551359488524">Whatsapp: (13)9xxxx-xxxx</a></li>
+                <li><a href="tel:+551398548544">Tel: (13)xxxx-xxxx</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <!--Aqui tem redes sociais-->
+            <ul>
+                <h3>SIGA NOSSAS REDES SOCIAIS</h3>
+                <li><a href="#">Facebook: C&MModas</a></li>
+                <li><a href="#">Instagram: @C&MModas</a></li>
+                <li><a href="#">Twitter: @C&MModas</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://kit.fontawesome.com/89f5510ba0.js" crossorigin="anonymous"></script>
 </body>

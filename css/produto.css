@@ -140,7 +140,7 @@
 .principal {
     background-color: rgba(128, 128, 128, 0.2);
     margin-left: 55px;
-    width: 510px;
+    width: 600px;
 }
 
 .exemple1 {
@@ -155,4 +155,222 @@
     top: 200px;
     left: 90px;
     background-color: rgba(128, 128, 128, 0.25);
+}
+
+.front {
+    display: flex;
+}
+
+.info {
+    margin-left: 40px;
+    line-height: 33px;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo h2 {
+    font-size: 2em;
+}
+
+.fa-heart {
+    font-size: 1.75em;
+    margin-left: 30px;
+}
+
+.avaliacao {
+    position: relative;
+    margin-top: 15px;
+}
+
+.fa-star {
+    padding: 0 3px;
+    font-size: 1.25em;
+}
+
+.avaliacao a {
+    color: #ed0707;
+    margin-left: 20px;
+}
+
+.fa-share-nodes {
+    font-size: 1.75em;
+    position: absolute;
+    right: 0;
+}
+
+.info-produto h3 {
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.info-produto p {
+    font-weight: 500;
+}
+
+.info-produto span {
+    color: #969696;
+}
+
+.info-produto img {
+    background-color: rgba(128, 128, 128, 0.2);
+    border: 1px solid #ed0707;
+    border-radius: 80%;
+    width: 70px;
+    height: 70px;
+    margin: 20px 0;
+}
+
+.info-produto p {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.sizes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.size-circle {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-top: 18px;
+    width: 43px;
+    height: 44px;
+    border-radius: 63px;
+    background: rgba(157, 151, 151, 0.20);
+    margin-left: 8px;
+}
+
+.first-height {
+    border: 1px solid #ed0707;
+}
+
+form {
+    display: flex;
+}
+
+.frete {
+    margin: 20px 0;
+}
+
+.frete input {
+    padding: 10px;
+    width: 200px;
+    height: 10px;
+    border: none;
+    background-color: #f5eeee;
+    font-weight: bolder;
+}
+
+button {
+    border: none;
+    background-color: #969696;
+    width: 80px;
+}
+
+.buy {
+    padding: 15px 0;
+}
+
+.buy a {
+    background-color: #ed0707;
+    padding: 15px;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.fa-bag-shopping {
+    padding: 10px;
+    font-size: 1.75;
+}
+
+.frete-info p {
+    font-weight: 500;
+}
+
+.frete-info span {
+    color: #ed0707;
+}
+
+.frete-info ul li {
+    list-style: none;
+}
+
+.frete-info ul li a {
+    color: #969696;
+}
+
+.down {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.outros {
+    position: relative;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.2);
+    margin: 13px 52px;
+    width: 106px;
+    height: 103px;
+    padding: 10px;
+}
+
+.outros p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.saia {
+    margin-top: 12px;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.outros i {
+    position: absolute;
+    top: 15;
+    left: 65px;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(223, 16, 16);
+    margin-top: 100px;
+    padding: 40px;
+    text-align: start;
+    line-height: 30px;
+}
+
+.contact-container h3 {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-container ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.contact-container ul {
+    list-style: none;
 }
