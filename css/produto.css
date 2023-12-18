@@ -13,6 +13,10 @@
     background-color: rgb(223, 16, 16);
 }
 
+.menu-info a {
+    text-decoration: none;
+}
+
 .menu-info h2 {
     border: 1px solid #fff;
     border-radius: 50%;
@@ -180,6 +184,7 @@
     margin-left: 30px;
 }
 
+
 .avaliacao {
     position: relative;
     margin-top: 15px;
@@ -236,6 +241,13 @@
     padding: 10px;
 }
 
+.sizes a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
 .size-circle {
     display: flex;
     align-items: center;
@@ -247,6 +259,11 @@
     border-radius: 63px;
     background: rgba(157, 151, 151, 0.20);
     margin-left: 8px;
+}
+
+.size-circle:hover {
+    background-color: #ed0707;
+    transition-duration: 1s;
 }
 
 .first-height {

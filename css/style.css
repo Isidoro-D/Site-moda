@@ -204,6 +204,7 @@
     padding: 10px;
 }
 
+
 .ofertas {
     display: flex;
     flex-wrap: wrap;
@@ -214,6 +215,11 @@
 
 .promo {
     position: relative;
+}
+
+.dois a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .promo img {
@@ -237,6 +243,8 @@
     background-color: transparent;
     font-size: 24px;
 }
+
+
 
 .contact-container {
     display: flex;
